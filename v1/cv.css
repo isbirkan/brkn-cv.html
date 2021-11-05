@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('http://fonts.cdnfonts.com/css/aller');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("http://fonts.cdnfonts.com/css/aller");
 
 @page {
   size: A4;
@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper {
-  display:flex;
+  display: flex;
   flex-direction: row;
   height: 100%;
 }
@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   color: #e6e7e8;
   line-height: 1em;
-  font-family: 'Aller', sans-serif;
+  font-family: "Aller", sans-serif;
 }
 
 .triangle {
@@ -40,8 +40,8 @@ body {
 }
 
 .left-section > .container-fluid {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .profile-badge-wrapper {
@@ -54,8 +54,6 @@ body {
 .profile-badge {
   width: 125px;
   height: 125px;
-  background-image: url('../assets/92D916C7-8305-452B-B343-DF844876E65A.jpg');
-  background-size: cover;
   border: 3px solid white;
   border-radius: 50%;
 }
@@ -78,7 +76,8 @@ body {
   margin-bottom: 0;
 }
 
-.about-me-text, .social-text {
+.about-me-text,
+.social-text {
   font-size: 0.8em;
 }
 
@@ -105,7 +104,7 @@ body {
   border-radius: 50%;
   background-color: #808183;
   -webkit-box-shadow: inset 0px 0px 0px 3px white;
-  -moz-box-shadow: inset 0px 0px 0px 3px white,0,1;
+  -moz-box-shadow: inset 0px 0px 0px 3px white, 0, 1;
   box-shadow: inset 0px 0px 0px 3px white;
 }
 
@@ -115,7 +114,7 @@ body {
   border-radius: 50%;
   background-color: #808183;
   -webkit-box-shadow: inset 0px 0px 0px 6px white;
-  -moz-box-shadow: inset 0px 0px 0px 6px white,0,1;
+  -moz-box-shadow: inset 0px 0px 0px 6px white, 0, 1;
   box-shadow: inset 0px 0px 0px 6px white;
 }
 
@@ -125,7 +124,7 @@ body {
   border-radius: 50%;
   background-color: #808183;
   -webkit-box-shadow: inset 0px 0px 0px 8px white;
-  -moz-box-shadow: inset 0px 0px 0px 8px white,0,1;
+  -moz-box-shadow: inset 0px 0px 0px 8px white, 0, 1;
   box-shadow: inset 0px 0px 0px 8px white;
 }
 
@@ -137,7 +136,7 @@ body {
 }
 
 .right-section {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 70%;
 }
 
@@ -146,7 +145,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-left: 10px;
-  margin-top: 40px
+  margin-top: 40px;
 }
 
 .header-left {
@@ -168,8 +167,9 @@ body {
   line-height: 20px;
 }
 
-.header-name, .header-title {
-  font-family: 'Bebas Neue', cursive;
+.header-name,
+.header-title {
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 0.5px;
   line-height: 1em;
 }
@@ -192,17 +192,20 @@ body {
   color: #76777a;
 }
 
-.work-experience, .education-experience {
+.work-experience,
+.education-experience {
   margin-left: 20px;
 }
 
-.work-header, .education-header {
+.work-header,
+.education-header {
   display: flex;
   flex-direction: row;
   align-items: end;
 }
 
-.work-icon, .education-icon {
+.work-icon,
+.education-icon {
   border: solid white 2px;
   border-radius: 50%;
   padding: 8px;
@@ -211,7 +214,8 @@ body {
   height: 45px;
 }
 
-.work-icon > i, .education-icon > i {
+.work-icon > i,
+.education-icon > i {
   color: white;
   position: relative;
   top: 1px;
@@ -221,13 +225,15 @@ body {
   left: 3px;
 }
 
-.work-title, .education-title {
+.work-title,
+.education-title {
   margin-left: 5px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   color: #414142;
 }
 
-.work-title-separator, .education-title-separator {
+.work-title-separator,
+.education-title-separator {
   margin-top: 0px;
   margin-left: 50px;
   color: #414142;
@@ -239,7 +245,8 @@ body {
   margin-right: 381px;
 }
 
-.work-body, .education-body {
+.work-body,
+.education-body {
   border-left: solid rgb(65, 65, 66, 0.25) 2px;
   margin-left: 22px;
 }
@@ -255,12 +262,12 @@ body {
 
 .checkpoint-brkn {
   left: -7px;
-  top: 20px;
+  top: 26px;
 }
 
 .checkpoint-arnia {
   left: -7px;
-  top: 18px;
+  top: 20px;
 }
 
 .checkpoint-editec {
@@ -270,7 +277,7 @@ body {
 
 .checkpoint-eminus {
   left: -7px;
-  top: 20px;
+  top: 22px;
 }
 
 .checkpoint-rbc {
@@ -280,10 +287,11 @@ body {
 
 .checkpoint-master {
   left: -7px;
-  top: 20px;
+  top: 22px;
 }
 
-.job, .education {
+.job,
+.education {
   display: flex;
   flex-direction: column;
   font-size: 0.8em;
@@ -293,19 +301,37 @@ body {
   margin-right: 10px;
 }
 
-.job > *, .education > * {
+.headline-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+}
+
+.headline-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.job > *,
+.education > * {
   padding-left: 10px;
 }
 
-.job-company, .education-institute {
+.job-company,
+.education-institute {
   color: #00b4fe;
 }
 
-.job-headline, .job-company, .education-headline, .education-institute {
+.job-headline,
+.job-company,
+.education-headline,
+.education-institute {
   font-weight: bold;
 }
 
-.job-period, .education-specific {
+.job-period,
+.education-specific {
   font-style: italic;
 }
 
@@ -324,8 +350,12 @@ body {
   margin-bottom: 8px;
 }
 
+.logo-image {
+  width: 40px;
+}
+
 .copywright-right {
-  font-family: 'Aller', sans-serif;
+  font-family: "Aller", sans-serif;
   position: absolute;
   bottom: 2px;
   left: 243px;
