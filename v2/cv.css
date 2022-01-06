@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("http://fonts.cdnfonts.com/css/aller");
+
+@page {
+  size: A4;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left-section {
+  width: 240px;
+  background-color: #414141;
+  /* background: 
+  linear-gradient(to top left,transparent 50%,#808183 0) top left/240px 150px no-repeat,
+  #414141; */
+  display: flex;
+  flex-direction: column;
+  color: #e6e7e8;
+  line-height: 1em;
+  font-family: "Aller", sans-serif;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 150px solid #00b4fe;
+  border-right: 240px solid transparent;
+  position: absolute;
+  z-index: 0;
+}
+
+.left-section > .container-fluid {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.profile-badge-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  z-index: 1;
+}
+
+.profile-badge {
+  width: 125px;
+  height: 125px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.section-title::before,
+.section-title::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1px;
+  background: #808183;
+  margin: 2px;
+}
+
+.about-me {
+  margin-top: 40px;
+}
+
+.about-me-text {
+  margin-bottom: 0;
+}
+
+.about-me-text,
+.social-text {
+  font-size: 0.8em;
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.language-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+
+.language-name {
+  font-size: 0.8em;
+}
+
+.language-romanian {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #808183;
+  -webkit-box-shadow: inset 0px 0px 0px 3px white;
+  -moz-box-shadow: inset 0px 0px 0px 3px white, 0, 1;
+  box-shadow: inset 0px 0px 0px 3px white;
+}
+
+.language-english {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #808183;
+  -webkit-box-shadow: inset 0px 0px 0px 6px white;
+  -moz-box-shadow: inset 0px 0px 0px 6px white, 0, 1;
+  box-shadow: inset 0px 0px 0px 6px white;
+}
+
+.language-turkish {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #808183;
+  -webkit-box-shadow: inset 0px 0px 0px 8px white;
+  -moz-box-shadow: inset 0px 0px 0px 8px white, 0, 1;
+  box-shadow: inset 0px 0px 0px 8px white;
+}
+
+.copywright-left {
+  position: absolute;
+  bottom: 5px;
+  font-size: 0.8em;
+  left: 140px;
+}
+
+.right-section {
+  background-color: #ffffff;
+  width: 70%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.header-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.header-right > table {
+  line-height: 20px;
+}
+
+.header-name,
+.header-title {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.5px;
+  line-height: 0.9em;
+}
+
+.header-name {
+  font-size: 4em;
+  color: #414142;
+}
+
+.header-title {
+  font-size: 1.5em;
+  letter-spacing: 0px;
+  color: #00b4fe;
+}
+
+.header-contact {
+  font-size: 0.8em;
+  letter-spacing: 0px;
+  line-height: 0px;
+  color: #76777a;
+}
+
+.work-experience,
+.education-experience {
+  margin-left: 20px;
+}
+
+.work-header,
+.education-header {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.work-icon,
+.education-icon {
+  border: solid white 2px;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #00b4fe;
+  width: 45px;
+  height: 45px;
+}
+
+.work-icon > i,
+.education-icon > i {
+  color: white;
+  position: relative;
+  top: 1px;
+}
+
+.education-icon > i {
+  left: 3px;
+}
+
+.work-title,
+.education-title {
+  margin-left: 5px;
+  font-family: "Bebas Neue", cursive;
+  color: #414142;
+}
+
+.work-title-separator,
+.education-title-separator {
+  margin-top: 0px;
+  margin-left: 50px;
+  color: #414142;
+  margin-right: 322px;
+}
+
+.education-title-separator {
+  margin-left: 50px;
+  margin-right: 381px;
+}
+
+.work-body,
+.education-body {
+  border-left: solid rgb(65, 65, 66, 0.25) 2px;
+  margin-left: 22px;
+}
+
+.badge-custom {
+  font-family: "Aller", sans-serif;
+  font-size: 0.8em;
+  color: #414142;
+  border: 1px solid #999;
+  background-color: transparent;
+  border-color: #00b4fe;
+}
+
+.checkpoint {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: solid rgb(65, 65, 66, 0.25) 2px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.checkpoint-brkn {
+  left: -7px;
+  top: 26px;
+}
+
+.checkpoint-arnia {
+  left: -7px;
+  top: 42px;
+}
+
+.checkpoint-editec {
+  left: -7px;
+  top: 45px;
+}
+
+.checkpoint-eminus {
+  left: -7px;
+  top: 46px;
+}
+
+.checkpoint-rbc {
+  left: -7px;
+  top: 43px;
+}
+
+.checkpoint-master {
+  left: -7px;
+  top: 22px;
+}
+
+.checkpoint-facultate {
+  left: -7px;
+  top: 38px;
+}
+
+.checkpoint-liceu {
+  left: -7px;
+  top: 40px;
+}
+
+.job,
+.education {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  line-height: 1;
+  color: #414142;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headline-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+}
+
+.headline-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.job > *,
+.education > * {
+  padding-left: 10px;
+}
+
+.job-company,
+.education-institute {
+  color: #00b4fe;
+}
+
+.job-headline,
+.job-company,
+.education-headline,
+.education-institute {
+  font-weight: bold;
+}
+
+.job-period,
+.education-specific {
+  font-style: italic;
+}
+
+.job-location {
+  float: right;
+  margin-right: 20px;
+}
+
+.education-year {
+  float: right;
+  margin-right: 20px;
+}
+
+.job-description {
+  color: #76777a;
+  margin-bottom: 8px;
+}
+
+.logo-image {
+  width: 40px;
+}
+
+.copywright-right {
+  font-family: "Aller", sans-serif;
+  position: absolute;
+  bottom: 2px;
+  left: 243px;
+  font-size: 0.8em;
+}
+
+.mt-6 {
+  margin-top: 2rem !important;
+}
+
+.mt-8 {
+  margin-top: 3rem !important;
+}
