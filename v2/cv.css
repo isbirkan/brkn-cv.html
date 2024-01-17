@@ -251,6 +251,10 @@ body {
   margin-left: 22px;
 }
 
+.work-body {
+  margin-top: -25px;
+}
+
 .badge-custom {
   font-family: "Aller", sans-serif;
   font-size: 0.8em;
@@ -258,6 +262,15 @@ body {
   border: 1px solid #999;
   background-color: transparent;
   border-color: #00b4fe;
+}
+
+.badge-highlight {
+  font-family: "Aller", sans-serif;
+  font-size: 0.8em;
+  color: rgb(126 34 206);
+  border: 3px solid #a020f0;
+  background-color: rgb(250 245 255);
+  border-color: rgb(126 34 206 / 0.1);
 }
 
 .checkpoint {
@@ -274,24 +287,29 @@ body {
   top: 26px;
 }
 
+.checkpoint-sodexo {
+  left: -7px;
+  top: 35px;
+}
+
 .checkpoint-arnia {
   left: -7px;
-  top: 42px;
+  top: 38px;
 }
 
 .checkpoint-editec {
   left: -7px;
-  top: 45px;
+  top: 30px;
 }
 
 .checkpoint-eminus {
   left: -7px;
-  top: 46px;
+  top: 32px;
 }
 
 .checkpoint-rbc {
   left: -7px;
-  top: 43px;
+  top: 30px;
 }
 
 .checkpoint-master {
